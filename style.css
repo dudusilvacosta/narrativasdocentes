@@ -67,3 +67,9 @@ footer p {
 	color: #fff;
 	font-weight: 400;
 }
+
+@media (max-width: 820px) {
+	section {
+		flex-direction: column;
+	}
+}
