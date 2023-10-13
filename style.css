@@ -43,7 +43,6 @@ main {
 section {
 	min-height: calc(100vh - 140px);
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 }
 
