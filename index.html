@@ -26,6 +26,7 @@
 		</div>
 		<i class="bi bi-door-open" onclick="openModal()"></i>
 	</header>
+
 	<main>
 		<section id="1" class="sec__a">
 			<div style="padding: 1rem; line-height: 2rem;">
@@ -81,6 +82,7 @@
 				</p>
 			</div>
 		</section>
+
 		<section id="2" class="sec__b">
 			<iframe class="iframe" src="https://www.youtube.com/embed/Bq0izuVjCto?si=3-am2dphAuFOPGL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 			<div class="texto">
@@ -103,15 +105,18 @@
 		<section class="sec__a"></section>
 		<section class="sec__b"></section>
 	</main>
+
 	<footer>
 		<p><i class="bi bi-r-circle"></i> NARRATIVAS DOCENTES</p>
 		<p>todos os direitos reservados</p>
 	</footer>
+
 	<div id="modal" class="modal">
 		<div class="modal__content">
 			<div class="btn__modal">
 				<i class="bi bi-door-closed" onclick="closeModal()"></i>
 			</div>
+
 			<nav>
 				<a href="#1"><i class="bi bi-house"></i></a>
 				<a href="#2">Entrevista 1</a>
@@ -123,6 +128,21 @@
 			</nav>
 		</div>
 	</div>
-	<script src="main.js"></script>	
+
+	<div vw class="enabled">
+    <div vw-access-button class="active"></div>
+		
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+	<script src="main.js"></script>
 </body>
 </html>
