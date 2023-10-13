@@ -148,6 +148,17 @@ nav a {
 	cursor: pointer;
 }
 
+.bi-house-fill,
+.bi-cloud-moon-fill,
+.bi-cloud-sun-fill {
+	margin-top: 2rem;
+	font-size: 1.5rem;
+}
+
+.bi-cloud-sun-fill {
+	display: none;
+}
+
 @media (max-width: 820px) {
 	header div {
 		flex-direction: column;
