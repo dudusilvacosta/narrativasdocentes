@@ -59,7 +59,7 @@ function removeContrast() {
 	nav.style.backgroundColor = '#b6c2c2';
 
 	secA.forEach(div => {
-		div.style.backgroundColor = '#202c33';
+		div.style.backgroundColor = '#b6c2c2';
 	});
 
 	secB.forEach(div => {
