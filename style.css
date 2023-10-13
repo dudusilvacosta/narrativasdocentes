@@ -13,7 +13,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #3c98a7;
+	background-color: #046971;
 }
 
 header a {
@@ -24,11 +24,8 @@ img {
 	height: 58px;
 }
 
-h1 {
-	color: #046971;
-}
-
 .bi-door-open {
+	color: #3c98a7;
 	font-size: 2rem;
 	font-weight: bolder;
 	cursor: pointer;
