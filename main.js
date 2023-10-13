@@ -33,8 +33,6 @@ function addContrast() {
 
 	nav.style.backgroundColor = '#1a1a1a';
 
-	footer.style.backgroundColor = '#202024';
-
 	secA.forEach(div => {
 		div.style.backgroundColor = '#202c33';
 	});
@@ -47,6 +45,7 @@ function addContrast() {
 		div.style.color = '#fff';
 	});
 
+	footer.style.backgroundColor = '#202024';
 }
 
 function removeContrast() {
@@ -69,5 +68,6 @@ function removeContrast() {
 	texto.forEach(div => {
 		div.style.color = '#046971';
 	});
-	footer.style.backgroundColor = '#a7b7b6';
+
+	footer.style.backgroundColor = '#3c98a7';
 }
