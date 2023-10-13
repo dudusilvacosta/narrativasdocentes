@@ -16,6 +16,10 @@ header {
 	background-color: #3c98a7;
 }
 
+header a {
+	text-decoration: none;
+}
+
 header div {
 	display: flex;
 	align-items: center;
@@ -36,6 +40,7 @@ h1 {
 .bi-door-open {
 	font-size: 2rem;
 	font-weight: bolder;
+	cursor: pointer;
 }
 
 main {
@@ -45,6 +50,7 @@ main {
 }
 
 section {
+	min-height: calc(100vh - 140px);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -73,7 +79,7 @@ section p {
 	max-width: calc(100vw - 600px);
 	margin: 1rem 0;
 	margin-right: 1rem;
-	line-height: 2rem;
+	line-height: 1.5rem;
 }
 
 footer {
@@ -139,6 +145,7 @@ nav a {
 .bi-door-closed {
 	font-size: 2rem;
 	color: #b6c2c2;
+	cursor: pointer;
 }
 
 @media (max-width: 820px) {
