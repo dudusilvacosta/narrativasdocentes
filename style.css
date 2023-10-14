@@ -139,6 +139,7 @@ nav a {
 }
 
 .bi-door-closed {
+	padding-left: 100%;
 	font-size: 2rem;
 	color: #b6c2c2;
 	cursor: pointer;
